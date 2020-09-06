@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  idcard:
+    build: .
+    image: idcard
+    container_name: idcard
+    restart: always
+    ports:
+      - 8000:8000
